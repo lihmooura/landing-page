@@ -1,22 +1,23 @@
 import React from 'react';
 import './CSS/Navbar.css';
 import './CSS/navbarresponsive.css';
-import Badge from '../../Images/Badge.png'
+import Badge from '../../Assets/Imagens/Badge.png';
+import '../../Assets/Global.css'
 
 const NavBar = () => {
     return (
         <div className="Navbar">
             
-            <div className="NavOptions">
+            <div className="NavOptions white">
                 <img src={Badge} alt="badge" />
-                <h5>Create Your Nanny Share</h5>
-                <h5>Brownse Shares</h5>
-                <h5>Our Story</h5>
+                <h5 className='x-small-text'>Create Your Nanny Share</h5>
+                <h5 className='x-small-text'>Brownse Shares</h5>
+                <h5 className='x-small-text'>Our Story</h5>
             </div>
 
-            <div className="register">
-                <button>Became a Nanny Share Host</button>    
-                <h5>Sign In</h5>
+            <div className="register white">
+                <button className='x-small-text white'>Became a Nanny Share Host</button>    
+                <h5 className='x-small-text'>Sign In</h5>
             </div>
 
         </div>

@@ -1,0 +1,20 @@
+/* .Home-image */
+/* 895 */
+@media only screen and (max-width: 895px) {
+    .Home-image {
+      display: none !important; 
+    }
+    .Home-text { 
+        margin-left: 0px !important;
+        width: 90%;
+    }
+    .home-footer { 
+      flex-direction: column;
+      height: auto !important;
+    }
+    .text-footer-one {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
