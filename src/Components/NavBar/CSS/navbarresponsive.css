@@ -1,0 +1,24 @@
+/* HIDE OPTION BUTTON */
+@media only screen and (max-width: 1400px) {
+    .NavOptions {
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1106px) {
+    .NavOptions {
+        width: 100%;
+        justify-content: left;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .NavOptions h5 {
+      display: none;
+    }
+    .register h5 {
+        display: none;
+    }
+    .NavOptions {
+        width: 100%;
+    }
+  }
