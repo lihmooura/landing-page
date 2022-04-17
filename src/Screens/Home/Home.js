@@ -22,19 +22,20 @@ const HomePage = () => {
                     <h3 className="medium-text light description white">Hapu is Airbnb for nanny share. Share your home, 
                         nanny and costs and create new flexible, affordable solutions in childcare.</h3>
                    <div className='button'>
-                   <img className='image-play' src={PlayButton}/>
+                   <img className='image-play' src={PlayButton} alt="play"/>
                     <h4 className='white light'>See hapu in action (27 seconds)</h4>  
                     </div>
                 </div> 
             </div>
 
             <div className='Home-image'>
+            <img src={ImageHeader} alt="header" className="ImageHeader" />
+            </div>
             
-            <img src={ImageHeader} className="ImageHeader" />
             </div>
-            </div>
+            
             <div className='home-footer'>
-            <img src={avatar} />
+            <img src={avatar} alt="avatar" />
             <p className='x-small-text link text-footer-one'>Sarah’s day care available now in North Sydney</p>
             <p className='x-small-text'>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
 

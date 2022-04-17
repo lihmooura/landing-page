@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1025px) {
+    .Share-wrapper{
+      flex-direction:column-reverse;
+      justify-content: center !important;
+      align-items: center !important;
+
+    }
+    .Share-image { 
+        width: 70% !important;
+    }
+    .large-text .x-small-text {
+        margin-right: 30px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Share-image { 
+        width: 80% !important;
+    }
+    .Share-text { 
+        width: 90% !important;
+    }
+
+}

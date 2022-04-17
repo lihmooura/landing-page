@@ -11,16 +11,17 @@
   width: 60%;
 }
 .Navbar h5 {
+  margin-top: 18px;
+  margin-left: 10px;
     text-align: center;
     width: 25%;
     justify-content: space-around;
 }
 
 .register button {
-    height: 44px;
-    width: 234px;
-    left: 1105px;
-    margin-top: 10px;
+    height: 48px;
+    width: 240px;
+    margin-top: 5px;
     background: #00A870;
     border-radius: 4px;
     line-height: 20px;

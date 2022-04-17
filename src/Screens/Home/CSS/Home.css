@@ -16,10 +16,9 @@
     width: 800px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
     margin-left: 35px;
-    
 }
 .description { 
     margin-top: 35px;

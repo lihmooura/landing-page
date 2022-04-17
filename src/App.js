@@ -1,6 +1,6 @@
-import './index.css';
 import NavBar from './Components/NavBar/Navbar'
 import Home from './Screens/Home/Home';
+import Share from './Screens/Share /Share'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     
         <Home />
 
+        <Share />
      </div>
 
   );

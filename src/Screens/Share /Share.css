@@ -1,0 +1,42 @@
+.Share-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+.Share-text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}
+.large-text {
+    margin-left: 50px;
+    margin-bottom: 20px
+}
+.x-small-text {
+    margin-left: 50px;
+    line-height: 28px;
+    margin-top: 20px;
+    align-items: center
+   
+}
+
+.Share-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%; 
+}
+.share-image {
+    width: 100%;
+}
+.Divider-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
