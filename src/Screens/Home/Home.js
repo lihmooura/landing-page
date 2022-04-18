@@ -21,7 +21,7 @@ const HomePage = () => {
                 <div>
                     <h3 className="medium-text light description white">Hapu is Airbnb for nanny share. Share your home, 
                         nanny and costs and create new flexible, affordable solutions in childcare.</h3>
-                   <div className='button'>
+                   <div className='button-play'>
                    <img className='image-play' src={PlayButton} alt="play"/>
                     <h4 className='white light'>See hapu in action (27 seconds)</h4>  
                     </div>

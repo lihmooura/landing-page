@@ -1,0 +1,9 @@
+.button {
+    width: 45px;
+    height: 45px;
+    mix-blend-mode: normal;
+    border-color: 1px solid #DFDFDF;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+}

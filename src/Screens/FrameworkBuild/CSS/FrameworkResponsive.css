@@ -1,6 +1,5 @@
 @media only screen and (max-width: 800px) {
     .Framework-image {
-        background-color: red;
         display: none;
     }
     .Framework-text {

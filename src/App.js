@@ -5,11 +5,12 @@ import Share from './Screens/Share /Share'
 import SharedPage from './Screens/SharedPayments/SharedPayments';
 import FrameworkBuild from './Screens/FrameworkBuild/Framework';
 import NannyShare from './Screens/NannyShare/NannyShare';
+import BecomeNanny from './Screens/BecomeNanny/BecomeNanny';
 
 function App() {
   return (
     <div className="App">
-
+      <div>
     <NavBar />
         <Home />
         <Share />
@@ -17,7 +18,8 @@ function App() {
         <SharedPage />
         <FrameworkBuild />
         <NannyShare />
-        
+        <BecomeNanny />
+        </div>
      </div>
 
   );
