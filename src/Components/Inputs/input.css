@@ -1,0 +1,24 @@
+input { 
+    height: 48px;
+    width: 232px;
+    left: 428px;
+    top: 1570px;
+    border-radius: 4px;
+    margin-left: 10px;
+   
+}
+.input-default {
+
+    border: 1px solid #DFDFDF;
+
+}
+.error { 
+
+    border: 1px solid #f90000;
+}
+
+@media only screen and (max-width: 610px) {
+    .input-default { 
+        margin: 10px;
+    }
+}

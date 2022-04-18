@@ -1,8 +1,8 @@
 import React from 'react';
 import ImageSection1 from '../../Assets/Imagens/ImageSection1.png';
 import Divider from '../../Assets/Imagens/Divider1.png';
-import './Share.css';
-import './Shareresponsive.css'
+import '../Share /CSS/Share.css';
+import '../Share /CSS/Shareresponsive.css'
 
 const SharePage = () => {
     return (

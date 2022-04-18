@@ -11,6 +11,9 @@
     .large-text .x-small-text {
         margin-right: 30px !important;
     }
+    .Divider-image {
+        margin-top: 100px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .Share-image { 

@@ -1,7 +1,7 @@
 .Share-wrapper {
     display: flex;
     justify-content: center;
-    height: 85vh;
+    height: 100vh;
 }
 
 .Share-text {
@@ -38,5 +38,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
