@@ -1,0 +1,42 @@
+.Shared-screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.Shared-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%; 
+    margin-left: 60px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.shared-image {
+    width: 70%;
+}
+
+.large-text {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+.x-small-text {
+    margin-left: 50px;
+    line-height: 28px;
+    margin-top: 20px;
+    align-items: flex-start;
+    color: #3D3D3D;
+}
+
+.Shared-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    line-height: 40px;
+}

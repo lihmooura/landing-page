@@ -22,7 +22,6 @@
     line-height: 28px;
     margin-top: 20px;
     align-items: center
-   
 }
 
 .Share-image {
@@ -38,5 +37,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
 }

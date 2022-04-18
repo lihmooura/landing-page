@@ -14,11 +14,14 @@
   @media only screen and (max-width: 960px) {
     .NavOptions h5 {
       display: none;
+      margin: 0 !important;
     }
     .register h5 {
         display: none;
+        margin: 0 !important;
     }
     .NavOptions {
         width: 100%;
+        margin: 0 !important;
     }
   }

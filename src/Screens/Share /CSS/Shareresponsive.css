@@ -17,10 +17,13 @@
 }
 @media only screen and (max-width: 600px) {
     .Share-image { 
-        width: 80% !important;
+        width: 100% !important;
     }
     .Share-text { 
-        width: 90% !important;
+        width: 100% !important;
+        margin: 0 !important;
     }
-
+    .x-small-text .large-text{
+        margin: 0 !important;
+    }
 }

@@ -2,6 +2,7 @@ import NavBar from './Components/NavBar/Navbar'
 import Home from './Screens/Home/Home';
 import InfoPage from './Screens/Register/RegisterPage';
 import Share from './Screens/Share /Share'
+import SharedPage from './Screens/SharedPayments/SharedPayments';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Share />
 
         <InfoPage />
+
+        <SharedPage />
      </div>
 
   );
