@@ -1,0 +1,25 @@
+.Wrapper-share {
+    height: 60vh;
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Wrapper-image {
+    margin-top: 70px;
+}
+
+.Wrapper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.Wrapper-text p {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 28px;
+}

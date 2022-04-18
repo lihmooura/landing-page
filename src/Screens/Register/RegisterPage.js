@@ -4,7 +4,7 @@ import '../Register/CSS/RegisterPageResponsive.css'
 import TextField from '../../Components/Inputs/Input';
 import Button from '../../Components/Button/Button';
 import axios from 'axios';
-import Divider from '../../Assets/Imagens/Divider1.png';
+import Divider from '../../Components/Divider/Divider';
 
 const InfoPage = () => {
 
@@ -63,9 +63,9 @@ const InfoPage = () => {
              } />
 
             </div>
-            <div className='Divider'>
-            <img  src={Divider} alt="divider" />
-            </div>
+
+            <Divider />
+            
        </div>
        
     )

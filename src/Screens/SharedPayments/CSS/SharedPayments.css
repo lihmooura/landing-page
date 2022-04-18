@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    margin-bottom: 50px;
+    height: 60vh;
+    background: #F2F2F2;
 }
 
 .Shared-image {
@@ -23,6 +23,7 @@
 .large-text {
     margin-left: 50px;
     margin-bottom: 20px;
+    margin-top: 20px;
     align-items: flex-start;
 }
 .x-small-text {

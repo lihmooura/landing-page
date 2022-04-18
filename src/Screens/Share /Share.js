@@ -1,8 +1,8 @@
 import React from 'react';
 import ImageSection1 from '../../Assets/Imagens/ImageSection1.png';
-import Divider from '../../Assets/Imagens/Divider1.png';
+import Divider from '../../Components/Divider/Divider'
 import '../Share /CSS/Share.css';
-import '../Share /CSS/Shareresponsive.css'
+import '../Share /CSS/Shareresponsive.css';
 
 const SharePage = () => {
     return (
@@ -22,17 +22,13 @@ const SharePage = () => {
                 childcare that work for you and your community.</p>
                  <p className='x-small-text link'>Ready to get started?</p>   
               </div>
-              
               <div className='Share-image'>
                 <img className='share-image'  src={ImageSection1} alt="section"/> 
               </div>
               </div>
-              <div className='Divider-image'>
-              <img  src={Divider} alt="divider" />
-              </div>
+              <Divider /> 
+                
           </div>
-        
-
     )
 }
 

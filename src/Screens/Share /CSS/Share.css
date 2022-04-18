@@ -1,7 +1,9 @@
 .Share-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
+    background: #F2F2F2;
 }
 
 .Share-text {
@@ -15,13 +17,11 @@
 }
 .large-text {
     margin-left: 50px;
-    margin-bottom: 20px
 }
 .x-small-text {
     margin-left: 50px;
     line-height: 28px;
-    margin-top: 20px;
-    align-items: center
+    align-items: center;
 }
 
 .Share-image {
@@ -32,9 +32,4 @@
 }
 .share-image {
     width: 100%;
-}
-.Divider-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

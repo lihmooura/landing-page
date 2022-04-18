@@ -20,7 +20,6 @@ const SharedPage = () => {
                 or who owes what.</p>
             <p className='link x-small-text'>Read how Bridget’s share (without Hapu) ended over $15</p>
             </div>
-
         </div>
     )
 }
