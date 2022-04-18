@@ -1,7 +1,7 @@
 import React from 'react';
 import Section3 from '../../Assets/Imagens/ImageSection3.png';
 import './CSS/SharedPayments.css';
-import './CSS/SharedPaymentsResponsive.css'
+import './CSS/SharedPaymentsResponsive.css';
 
 const SharedPage = () => {
     return (
@@ -20,7 +20,7 @@ const SharedPage = () => {
                 or who owes what.</p>
             <p className='link x-small-text'>Read how Bridget’s share (without Hapu) ended over $15</p>
             </div>
-            
+
         </div>
     )
 }

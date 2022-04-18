@@ -3,6 +3,7 @@ import Home from './Screens/Home/Home';
 import InfoPage from './Screens/Register/RegisterPage';
 import Share from './Screens/Share /Share'
 import SharedPage from './Screens/SharedPayments/SharedPayments';
+import FrameworkBuild from './Screens/FrameworkBuild/Framework';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <InfoPage />
 
         <SharedPage />
+
+        <FrameworkBuild />
      </div>
 
   );
