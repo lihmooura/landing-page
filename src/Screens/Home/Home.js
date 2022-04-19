@@ -13,19 +13,22 @@ const HomePage = () => {
         <div>
         <div className='Home'>
             <img className='bg' src={BgHome} alt="bg" />
+
             <div className='Home-text'>
-                <div>
+               <div className='description-home'>
                 <h1 className='x-large-text white'>Easily create or join a local  <br/>
                     nanny share with Hapu</h1>
-                </div>
-                <div>
-                    <h3 className="medium-text light description white">Hapu is Airbnb for nanny share. Share your home, 
-                        nanny and costs and create new flexible, affordable solutions in childcare.</h3>
+
+                    <h3 className="medium-text light white">
+                        Hapu is Airbnb for nanny share. Share your home, 
+                        nanny and costs and create new flexible, 
+                        affordable solutions in childcare.</h3>
+                        </div>
                    <div className='button-play'>
                    <img className='image-play' src={PlayButton} alt="play"/>
                     <h4 className='white light'>See hapu in action (27 seconds)</h4>  
                     </div>
-                </div> 
+
             </div>
 
             <div className='Home-image'>
@@ -36,7 +39,8 @@ const HomePage = () => {
             
             <div className='home-footer'>
             <img src={avatar} alt="avatar" />
-            <p className='x-small-text link text-footer-one'>Sarah’s day care available now in North Sydney</p>
+            <p className='x-small-text link text-footer-one'>
+                Sarah’s day care available now in North Sydney</p>
             <p className='x-small-text'>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
 
             </div>

@@ -8,9 +8,16 @@
 }
 
 @media only screen and (max-width: 610px) {
+    .Info-text {
+        margin: 30px !important;
+    }
     .input-form{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        margin: 30px !important;
+    }
+    .input-email {
+        margin: 20px !important;
     }
 }

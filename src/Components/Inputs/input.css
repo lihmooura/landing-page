@@ -4,13 +4,11 @@ input {
     left: 428px;
     top: 1570px;
     border-radius: 4px;
-    margin-left: 10px;
+    margin-left: 50px;
    
 }
 .input-default {
-
     border: 1px solid #DFDFDF;
-
 }
 .error { 
 

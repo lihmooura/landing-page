@@ -5,7 +5,7 @@
         align-items: center;
     }
     .wrapper-screen {
-        height: 100vh !important;
+        height: 70vh !important;
     }
     .footer-text {
         display: flex;
@@ -13,6 +13,9 @@
         align-items: center;
         margin: 0px !important;
         width: 100%;
+    }
+    .screen-text {
+        margin: 25px !important;
     }
 }
 
@@ -30,7 +33,7 @@
         justify-content: center;
     }
     .wrapper-screen {
-        height: 100vh !important;
+        height: 60vh !important;
         margin-top: 90px;
         display: flex;
     }

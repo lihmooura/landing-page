@@ -18,10 +18,7 @@
         width: 100% !important;
     }
     .Share-text { 
-        width: 100% !important;
-        margin: 0 !important;
+        width: 80% !important;
     }
-    .x-small-text .large-text{
-        margin: 0 !important;
-    }
+    
 }

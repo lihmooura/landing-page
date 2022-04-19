@@ -10,8 +10,9 @@ import BecomeNanny from './Screens/BecomeNanny/BecomeNanny';
 function App() {
   return (
     <div className="App">
-      <div>
+    
     <NavBar />
+
         <Home />
         <Share />
         <InfoPage />
@@ -19,7 +20,7 @@ function App() {
         <FrameworkBuild />
         <NannyShare />
         <BecomeNanny />
-        </div>
+    
      </div>
 
   );
